@@ -6,6 +6,9 @@
   "sort": "star",
   "order": "asc",
   "includeFork": false,
-  "theme": "dark.css"
+  "theme": "light.css",
+  "types": [
+   "all"
+  ]
  }
 ]

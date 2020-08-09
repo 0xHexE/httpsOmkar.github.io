@@ -6,28 +6,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
-<link rel="icon" href="https://avatars0.githubusercontent.com/u/29942725?v=4" type="image/png"></head>
+  <link rel="icon" href="https://avatars0.githubusercontent.com/u/29942725?v=4" type="image/png"></head>
 
-<body>
+  <body>
     <div id="loading">
-        <div id="spinner"></div>
+      <div id="spinner"></div>
     </div>
     <div id="profile">
-        <div id="profile_img" style="background: url(https://avatars0.githubusercontent.com/u/29942725?v=4) center;"></div>
-        <div id="username"><span style="display:block;">Omkar Yadav</span><a href="https://github.com/httpsOmkar">@httpsOmkar</a></div>
-        <div id="userbio" style="display: block;">It’s the possibility of having a dream come true that makes life interesting.</div>
-        <div id="about">
-                <span style="display:block;"><i class="fas fa-users"></i> &nbsp; @F4ERP</span>
+      <div id="profile_img" style="background: url(https://avatars0.githubusercontent.com/u/29942725?v=4) center;"></div>
+      <div id="username"><span style="display:block;">Omkar Yadav</span><a href="https://github.com/httpsOmkar">@httpsOmkar</a></div>
+      <div id="userbio" style="display: none;">undefined</div>
+      <div id="about">
+                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
                 <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
-                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://bit.ly/2ZUdx0b">https://bit.ly/2ZUdx0b</a></span>
-                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Kolhapur, India</span>
-                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span></div>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://f22.dev/">https://f22.dev/</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; /Users/omkar/workspace</span>
+                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+                <div class="socials">
+                <span style="display:none !important;"><a href="https://www.twitter.com/undefined" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.linkedin.com/in/undefined/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.medium.com/@undefined/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+                </div>
+                </div>
     </div>
     <div id="display">
-        <div id="work">
-            <h1>Work.</h1>
-            <div class="projects" id="work_section">
+      <div id="work">
+        <h1>Work.</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://github.com/HarshwardhanPatil1329/homeapp" target="_blank">
+                        <section>
+                            <div class="section_title">homeapp</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
                         <a href="https://github.com/httpsOmkar/android-firestore-example-with-auth" target="_blank">
                         <section>
                             <div class="section_title">android-firestore-example-with-auth</div>
@@ -54,19 +75,6 @@
                             </div>
                         </section>
                         </a>
-                        <a href="https://github.com/httpsOmkar/angular-universal-theme" target="_blank">
-                        <section>
-                            <div class="section_title">angular-universal-theme</div>
-                            <div class="about_section">
-                            <span style="display:block;">Responsive, Versatile components for angular</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
                         <a href="https://github.com/httpsOmkar/arango-db-ci" target="_blank">
                         <section>
                             <div class="section_title">arango-db-ci</div>
@@ -75,6 +83,19 @@
                             </div>
                             <div class="bottom_section">
                                 <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Shell</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/bot-with-python" target="_blank">
+                        <section>
+                            <div class="section_title">bot-with-python</div>
+                            <div class="about_section">
+                            <span style="display:block;">Automatically submit and download the NEET questions from www.embibe.com. CURRENTLY IN DEVLOPEMENT CODE IN DEV BRANCH</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
@@ -106,6 +127,19 @@
                             </div>
                         </section>
                         </a>
+                        <a href="https://github.com/httpsOmkar/data-structure-c-programs" target="_blank">
+                        <section>
+                            <div class="section_title">data-structure-c-programs</div>
+                            <div class="about_section">
+                            <span style="display:block;">This repo contains some of program which are assignment for the data structure</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
                         <a href="https://github.com/httpsOmkar/f4erp-react-library" target="_blank">
                         <section>
                             <div class="section_title">f4erp-react-library</div>
@@ -114,6 +148,32 @@
                             </div>
                             <div class="bottom_section">
                                 <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/fontawesome" target="_blank">
+                        <section>
+                            <div class="section_title">fontawesome</div>
+                            <div class="about_section">
+                            <span style="display:block;">This is my personal CDN DONT USE THIS THIS IS JUST HACK FOR SOME TIME PLEASE DONT JUDGE ME</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/formik-carbon-design-components" target="_blank">
+                        <section>
+                            <div class="section_title">formik-carbon-design-components</div>
+                            <div class="about_section">
+                            <span style="display:block;">Carbon design system bindings for formik</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
@@ -132,27 +192,40 @@
                             </div>
                         </section>
                         </a>
-                        <a href="https://github.com/httpsOmkar/hadoop-one-cammand-install" target="_blank">
+                        <a href="https://github.com/httpsOmkar/httpsOmkar" target="_blank">
                         <section>
-                            <div class="section_title">hadoop-one-cammand-install</div>
+                            <div class="section_title">httpsOmkar</div>
                             <div class="about_section">
-                            <span style="display:block;">Install apache hadoop single node installation in one command</span>
+                            <span style="display:none;">undefined</span>
                             </div>
                             <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Shell</span>
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
                         </section>
                         </a>
-                        <a href="https://github.com/httpsOmkar/keycloak-accounts" target="_blank">
+                        <a href="https://github.com/httpsOmkar/httpsOmkar.github.io" target="_blank">
                         <section>
-                            <div class="section_title">keycloak-accounts</div>
+                            <div class="section_title">httpsOmkar.github.io</div>
                             <div class="about_section">
-                            <span style="display:block;">Keycloak accounts server</span>
+                            <span style="display:block;">My personal portfolio of httpsOmkar built by gitfolio</span>
                             </div>
                             <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/jbpm-kubernates" target="_blank">
+                        <section>
+                            <div class="section_title">jbpm-kubernates</div>
+                            <div class="about_section">
+                            <span style="display:block;">Kubernates setup for jbpm</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
@@ -171,14 +244,27 @@
                             </div>
                         </section>
                         </a>
-                        <a href="https://github.com/httpsOmkar/material-design-svelte" target="_blank">
+                        <a href="https://github.com/httpsOmkar/next-plugins" target="_blank">
                         <section>
-                            <div class="section_title">material-design-svelte</div>
+                            <div class="section_title">next-plugins</div>
                             <div class="about_section">
-                            <span style="display:block;">Material design for the svelte js</span>
+                            <span style="display:block;">Next JS plugins</span>
                             </div>
                             <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/nextjs-example-application" target="_blank">
+                        <section>
+                            <div class="section_title">nextjs-example-application</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
@@ -249,6 +335,19 @@
                             </div>
                         </section>
                         </a>
+                        <a href="https://github.com/httpsOmkar/poda-for-friend" target="_blank">
+                        <section>
+                            <div class="section_title">poda-for-friend</div>
+                            <div class="about_section">
+                            <span style="display:block;">just for the friend. Don't judge me</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
                         <a href="https://github.com/httpsOmkar/postgres-zombodb" target="_blank">
                         <section>
                             <div class="section_title">postgres-zombodb</div>
@@ -257,6 +356,19 @@
                             </div>
                             <div class="bottom_section">
                                 <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Dockerfile</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/px-to-rem" target="_blank">
+                        <section>
+                            <div class="section_title">px-to-rem</div>
+                            <div class="about_section">
+                            <span style="display:block;">Pixel to rem convert</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
@@ -301,6 +413,19 @@
                             </div>
                         </section>
                         </a>
+                        <a href="https://github.com/httpsOmkar/rocketchat-client-react" target="_blank">
+                        <section>
+                            <div class="section_title">rocketchat-client-react</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
                         <a href="https://github.com/httpsOmkar/sentiment-analysis-android" target="_blank">
                         <section>
                             <div class="section_title">sentiment-analysis-android</div>
@@ -340,6 +465,19 @@
                             </div>
                         </section>
                         </a>
+                        <a href="https://github.com/httpsOmkar/static-crosstool-ng" target="_blank">
+                        <section>
+                            <div class="section_title">static-crosstool-ng</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Makefile</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
                         <a href="https://github.com/httpsOmkar/string-similarity" target="_blank">
                         <section>
                             <div class="section_title">string-similarity</div>
@@ -366,14 +504,14 @@
                             </div>
                         </section>
                         </a>
-                        <a href="https://github.com/httpsOmkar/svelte-scrollable-component" target="_blank">
+                        <a href="https://github.com/httpsOmkar/test-gatsby" target="_blank">
                         <section>
-                            <div class="section_title">svelte-scrollable-component</div>
+                            <div class="section_title">test-gatsby</div>
                             <div class="about_section">
-                            <span style="display:block;">Svelte js component for horizontal scrollable cards. Inspired by YouTube scrollable cards</span>
+                            <span style="display:block;">Gatsby starter for a Contentful project.</span>
                             </div>
                             <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
@@ -405,6 +543,32 @@
                             </div>
                         </section>
                         </a>
+                        <a href="https://github.com/httpsOmkar/ubuntu-with-docker" target="_blank">
+                        <section>
+                            <div class="section_title">ubuntu-with-docker</div>
+                            <div class="about_section">
+                            <span style="display:block;">Docker in Docker with ubuntu</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Dockerfile</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/uvdesk-docker" target="_blank">
+                        <section>
+                            <div class="section_title">uvdesk-docker</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
                         <a href="https://github.com/httpsOmkar/vigilant-adventure" target="_blank">
                         <section>
                             <div class="section_title">vigilant-adventure</div>
@@ -418,28 +582,15 @@
                             </div>
                         </section>
                         </a>
-                        <a href="https://github.com/httpsOmkar/bot-with-python" target="_blank">
+                        <a href="https://github.com/httpsOmkar/webchannel-wrapper" target="_blank">
                         <section>
-                            <div class="section_title">bot-with-python</div>
+                            <div class="section_title">webchannel-wrapper</div>
                             <div class="about_section">
-                            <span style="display:block;">Automatically submit and download the NEET questions from www.embibe.com. CURRENTLY IN DEVLOPEMENT CODE IN DEV BRANCH</span>
+                            <span style="display:block;">Webchannel wrapped for easy use extracted from firebase sdk</span>
                             </div>
                             <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/httpsOmkar/data-structure-c-programs" target="_blank">
-                        <section>
-                            <div class="section_title">data-structure-c-programs</div>
-                            <div class="about_section">
-                            <span style="display:block;">This repo contains some of program which are assignment for the data structure</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
                         </section>
@@ -470,6 +621,45 @@
                             </div>
                         </section>
                         </a>
+                        <a href="https://github.com/httpsOmkar/graphics-go" target="_blank">
+                        <section>
+                            <div class="section_title">graphics-go</div>
+                            <div class="about_section">
+                            <span style="display:block;">Mirror for https://code.google.com/archive/p/graphics-go/</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Go</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/hadoop-one-cammand-install" target="_blank">
+                        <section>
+                            <div class="section_title">hadoop-one-cammand-install</div>
+                            <div class="about_section">
+                            <span style="display:block;">Install apache hadoop single node installation in one command</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Shell</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/keycloak-accounts" target="_blank">
+                        <section>
+                            <div class="section_title">keycloak-accounts</div>
+                            <div class="about_section">
+                            <span style="display:block;">Keycloak accounts server</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
                         <a href="https://github.com/httpsOmkar/keycloak-carbon-theme" target="_blank">
                         <section>
                             <div class="section_title">keycloak-carbon-theme</div>
@@ -483,6 +673,58 @@
                             </div>
                         </section>
                         </a>
+                        <a href="https://github.com/httpsOmkar/material-design-svelte" target="_blank">
+                        <section>
+                            <div class="section_title">material-design-svelte</div>
+                            <div class="about_section">
+                            <span style="display:block;">Material design for the svelte js</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/svelte-scrollable-component" target="_blank">
+                        <section>
+                            <div class="section_title">svelte-scrollable-component</div>
+                            <div class="about_section">
+                            <span style="display:block;">Svelte js component for horizontal scrollable cards. Inspired by YouTube scrollable cards</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jameelappsintegra/mypno" target="_blank">
+                        <section>
+                            <div class="section_title">mypno</div>
+                            <div class="about_section">
+                            <span style="display:block;">Mypno website</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/go-drive" target="_blank">
+                        <section>
+                            <div class="section_title">go-drive</div>
+                            <div class="about_section">
+                            <span style="display:block;">Upload and Download API's with Minio and OpenID</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Go</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
                         <a href="https://github.com/httpsOmkar/student-data-management" target="_blank">
                         <section>
                             <div class="section_title">student-data-management</div>
@@ -491,8 +733,21 @@
                             </div>
                             <div class="bottom_section">
                                 <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/httpsOmkar/carbon-keycloak-theme" target="_blank">
+                        <section>
+                            <div class="section_title">carbon-keycloak-theme</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; FreeMarker</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 7</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 2</span>
                             </div>
                         </section>
                         </a>
@@ -504,44 +759,45 @@
                             </div>
                             <div class="bottom_section">
                                 <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 15</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 4</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 59</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 16</span>
                             </div>
                         </section>
                         </a></div>
-        </div>
-        <div id="forks" style="display:none;">
-            <h1>Forks.</h1>
-            <div class="projects" id="forks_section"></div>
-        </div>
-        <div id="blog_section">
-            <h1>Blog.</h1>
-            <div id="blogs"></div>
-        </div>
-        <div id="footer">
-            <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
-        </div>
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+      </div>
     </div>
     <script type="text/javascript">
-        setTimeout(function () {
-            document.getElementById("loading").classList.add("animated");
-            document.getElementById("loading").classList.add("fadeOut");
-            setTimeout(function () {
-                document.getElementById("loading").classList.remove("animated");
-                document.getElementById("loading").classList.remove("fadeOut");
-                document.getElementById("loading").style.display = "none";
-            }, 800);
-        }, 1500);
-        $.getJSON("blog.json", function (blog) {
-            blog = blog || [];
-            if (blog.length == 0) {
-                return document.getElementById("blog_section").style.display = "none";
-            }
-            for (var i = 0; i < blog.length; i++) {
-                $("#blogs").append(`
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
             <a href="./blog/${blog[i].url_title}/" target="_blank">
                 <section>
-                    <img src="${blog[i].top_image}">
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
                     <div class="blog_container">
                         <div class="section_title">${blog[i].title}</div>
                         <div class="about_section">
@@ -551,19 +807,38 @@
                 </section>
             </a>
             `);
-            }
-        }).fail(function () {
-            return document.getElementById("blog_section").style.display = "none";
-        });
-    </script>
-
-    <script type="text/javascript">
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('service-worker.js');
-            });
         }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
     </script>
 
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
 
 </body></html>
